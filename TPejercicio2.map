@@ -1,0 +1,60 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Tue Nov 08 20:07:30 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000b0
+                   .cinit    romdata   0x000058    program   0x000004
+ .config_2007_PROYECTO2.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000059      
+                            0x002007    0x002007      
+            91 out of 2182 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+     APAGAR_LEDS_DE_A_UNO   0x000036    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+ CONFIGURACION_DE_PUERTOS   0x00001a    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+                   INICIO   0x000000    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+      PRENDERYAPAGAR_LEDS   0x000026    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+             PRENDER_LEDS   0x000020    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+    PRENDER_LEDS_DE_A_UNO   0x00002c    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX1   0x000042    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX2   0x000048    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX3   0x00004e    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX4   0x000054    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+            RETARDO_DE1MS   0x000040    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+             RETARDO_DE1S   0x000052    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+          RETARDO_DE250MS   0x000046    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+          RETARDO_DE500ms   0x00004c    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000000    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+ CONFIGURACION_DE_PUERTOS   0x00001a    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+             PRENDER_LEDS   0x000020    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+      PRENDERYAPAGAR_LEDS   0x000026    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+    PRENDER_LEDS_DE_A_UNO   0x00002c    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+     APAGAR_LEDS_DE_A_UNO   0x000036    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+            RETARDO_DE1MS   0x000040    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX1   0x000042    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+          RETARDO_DE250MS   0x000046    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX2   0x000048    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+          RETARDO_DE500ms   0x00004c    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX3   0x00004e    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+             RETARDO_DE1S   0x000052    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+              RETARDOAUX4   0x000054    program     static C:\Users\alejo\Desktop\Universidad\arq.computadoras\MPLAB progama\TrabajoPractico\Ejercicio2\PROYECTO2.asm
+
+
